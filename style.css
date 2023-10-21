@@ -7,9 +7,7 @@ font-style:normal*/
 .topnav {
     background-color: #121212;
     overflow: hidden;
-    font-family: 'Poppins';
-    font-weight: normal;
-    font-style: normal;
+    font-family: Poppins;
 }
 
     /* Style the links inside the navigation bar */
@@ -45,15 +43,11 @@ font-style:normal*/
 
 p {
     color: white;
-    font-family: 'Open Sans';
+    font-family: Open Sans;
 }
 
 h2 {
     color: white;
-    font-family: 'exocetheavy';
-    src: url('https://dinde451.github.io/Theodore-s-Lair/exocet/films.exh_____-webfont.woff2') format('woff2'), url('https://dinde451.github.io/Theodore-s-Lair/exocet/films.exh_____-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 }
 
 body {
@@ -120,7 +114,7 @@ logosmall {
 
 /* devanagari */
 @font-face {
-    font-family: 'Poppins';
+    font-family: Poppins;
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');
@@ -128,7 +122,7 @@ logosmall {
 }
 /* latin-ext */
 @font-face {
-    font-family: 'Poppins';
+    font-family: Poppins;
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
@@ -136,7 +130,7 @@ logosmall {
 }
 /* latin */
 @font-face {
-    font-family: 'Poppins';
+    font-family: Poppins;
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
@@ -145,7 +139,7 @@ logosmall {
 
 /* cyrillic-ext */
 @font-face {
-    font-family: 'Open Sans';
+    font-family: Open Sans;
     font-style: normal;
     font-weight: 400;
     font-stretch: 100%;
@@ -154,7 +148,7 @@ logosmall {
 }
 /* cyrillic */
 @font-face {
-    font-family: 'Open Sans';
+    font-family: Open Sans;
     font-style: normal;
     font-weight: 400;
     font-stretch: 100%;
@@ -163,7 +157,7 @@ logosmall {
 }
 /* greek-ext */
 @font-face {
-    font-family: 'Open Sans';
+    font-family: Open Sans;
     font-style: normal;
     font-weight: 400;
     font-stretch: 100%;
@@ -172,7 +166,7 @@ logosmall {
 }
 /* greek */
 @font-face {
-    font-family: 'Open Sans';
+    font-family: Open Sans;
     font-style: normal;
     font-weight: 400;
     font-stretch: 100%;
@@ -181,7 +175,7 @@ logosmall {
 }
 /* hebrew */
 @font-face {
-    font-family: 'Open Sans';
+    font-family: Open Sans;
     font-style: normal;
     font-weight: 400;
     font-stretch: 100%;
@@ -190,7 +184,7 @@ logosmall {
 }
 /* vietnamese */
 @font-face {
-    font-family: 'Open Sans';
+    font-family: Open Sans;
     font-style: normal;
     font-weight: 400;
     font-stretch: 100%;
@@ -199,7 +193,7 @@ logosmall {
 }
 /* latin-ext */
 @font-face {
-    font-family: 'Open Sans';
+    font-family: Open Sans;
     font-style: normal;
     font-weight: 400;
     font-stretch: 100%;
@@ -208,7 +202,7 @@ logosmall {
 }
 /* latin */
 @font-face {
-    font-family: 'Open Sans';
+    font-family: Open Sans;
     font-style: normal;
     font-weight: 400;
     font-stretch: 100%;
