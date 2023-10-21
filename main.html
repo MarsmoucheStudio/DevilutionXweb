@@ -1,23 +1,13 @@
 <!DOCTYPE html>
 <title>DevilutionX</title>
 <link rel="stylesheet" href="style.css" type="text/css">
-<link rel="script" href="js/script.js" type="text/javascript">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        .container {
-            display: flex;
-            justify-content: center;
-            height: 80%;
-        }
+        
 
         img {
             max-width: 100%
-        }
-
-        .text {
-            font-size: 17px;
-            padding-left: 15px;
         }
 
         .topright {
@@ -43,22 +33,84 @@
     <div style=" margin-bottom: 25px;">
         <center>
             <img src="img/Logo.png" alt="DevilutionX" style="width:40%;height:14%;">
+        </center>
     </div>
 
     <!--PAGE CONTENT-->
     <div class="container">
 
-       <!-- <div class="dropdown">
-            <button class="dropbtn">Dropdown</button>
-            <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-            </div>
-        </div> 
-           -->
+        <!--DevilutionX -->
+        <div>
+            <h2>What is DevilutionX?</h2>
+            <br />
+            <p>DevilutionX is a port of Diablo and Hellfire that strives to make it simple to run the game while providing engine improvements, bugfixes, and some optional quality of life features.</p><br />
+            <p>Check out the <a href="https://github.com/diasurgical/devilutionX/wiki">manual</a> for what features are available and how best to take advantage of them.</p><br />
+            <p>For a full list of changes see our <a href="https://github.com/diasurgical/devilutionX/blob/master/docs/CHANGELOG.md">changelog</a>.</p><br />
 
-    </div>
+        </div>
+
+        <!-- How to install -->
+        <div>
+            <h2>How to install</h2>
+            <br />
+            <p>Note: You'll need access to the data from the original game. If you don't have an original CD then you can <a href="https://www.gog.com/game/diablo">buy Diablo from GoG.com</a>. Alternately you can use <code>spawn.mpq</code> from the <a href="https://github.com/diasurgical/devilutionx-assets/releases/latest/download/spawn.mpq">shareware [2]</a> version, in place of <code>DIABDAT.MPQ</code>, to play the shareware portion of the game.</p><br />
+            <br />
+            <p>Download the latest <a href="https://github.com/diasurgical/devilutionX/releases/latest">DevilutionX</a> release and extract the contents to a location of your choosing or <a href="https://github.com/diasurgical/devilutionX#building-from-source">build from source</a>.</p><br />
+            <br />
+            <p>Copy <code>DIABDAT.MPQ</code> from the CD or GOG-installation (or <a href="https://github.com/diasurgical/devilutionX/wiki/Extracting-the-.MPQs-from-the-GoG-installer">extract it from the GoG installer</a>) to the DevilutionX folder.</p><br />
+            <p>To run the Diablo: Hellfire expansion you will need to also copy <code>hellfire.mpq</code>, <code>hfmonk.mpq</code>, <code>hfmusic.mpq</code>, <code>hfvoice.mpq</code>.</p><br />
+            <br />
+            <p>For more detailed instructions: <a href="https://github.com/diasurgical/devilutionX/blob/master/docs/installing.md">Installation Instructions</a>.</p><br />
+        </div>
+
+        <!-- Contributing -->
+        <div>
+            <h2>Contributing</h2>
+            <br />
+            <p>We are always looking for more people to help with <a href="https://github.com/diasurgical/devilutionX/blob/master/docs/CONTRIBUTING.md">coding</a>, <a href="https://github.com/diasurgical/devilutionX/wiki">documentation</a>, <a href="https://app.circleci.com/pipelines/github/diasurgical/devilutionX?branch=master">testing the latest builds</a>, spreading the word, or simply just hanging out on the <a href="https://discord.gg/devilutionx">chat</a>.</p>
+        </div>
+
+        <!-- Mods -->
+        <div>
+            <h2>Mods</h2>
+
+
+            <!-- Download -->
+            <div style="margin-left: 5%; margin-bottom: 60%">
+                <div class="dropdown">
+                    <button class="dropbtn">Dropdown</button>
+                    <div class="dropdown-content">
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-3ds.3dsx">DevilutionX 3DS.3dsx</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-3ds.cia">DevilutionX 3DS.cia</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-amiga-m68k.zip">DevilutionX amiga m68k.zip</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-android.apk">DevilutionX android.apk</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-iOS.ipa">DevilutionX IOS.ipa</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-lepus.opk">DevilutionX lepus.opk</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-linux-aarch64.tar.xz">DevilutionX linux aarch64.tar.xz</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-linux-i386.tar.xz">DevilutionX linux i386.tar.xz</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-linux-x86_64.appimage">DevilutionX linux x86 64.apimage</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-linux-x86_64.tar.xz">DevilutionX linux x86 64.tar.xz</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-macOS-x86_64.dmg">DevilutionX macOS x86 64.dmg</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-miyoo-mini-miniui.zip">DevilutionX miyoo miniui.zip</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-miyoo-mini-onion-os.zip">DevilutionX miyoo mini onion os.zip</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-ps4.pkg">DevilutionX PS4.pkg</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-retrofw.opk">DevilutionX retrofw.opk</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-rg350.opk">DevilutionX rg350.opk</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-src-fully-vendored.tar.xz">DevilutionX src fully vendored.tar.xz</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-src.tar.xz">DevilutionX src.tar.xz</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-switch.zip">DevilutionX switch.zip</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-vita.vpk">DevilutionX vita.vpk</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-windows-i386.zip">DevilutionX windows i386.zip</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-windows-x86_64.zip">DevilutionX windows x86 64.zip</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-xbox-one-series.zip">DevilutionX Xbox one series.zip</a>
+                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-xbox.zip">DevilutionX Xbox.zip</a>
+                        <a href="https://github.com/diasurgical/devilutionX/archive/refs/tags/1.5.1.zip">DevilutionX Source code.zip</a>
+                        <a href="https://github.com/diasurgical/devilutionX/archive/refs/tags/1.5.1.tar.gz">DevilutionX Source code.tar.gz</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
     <style>
         body {
