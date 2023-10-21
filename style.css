@@ -31,6 +31,27 @@ font-style:normal*/
             color: white;
         }
 
+.content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: scroll;
+    text-c
+}
+
+p {
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-family: 'exocetheavy';
+    src: url('https://dinde451.github.io/Theodore-s-Lair/exocet/films.exh_____-webfont.woff2') format('woff2'), url('https://dinde451.github.io/Theodore-s-Lair/exocet/films.exh_____-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background: black;
 }
