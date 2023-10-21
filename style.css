@@ -8,6 +8,9 @@ font-style:normal*/
     background-color: #121212;
     overflow: hidden;
     font-family: Poppins;
+    position: fixed;
+    top: 0; 
+    width: 98%;
 }
 
     /* Style the links inside the navigation bar */
@@ -33,12 +36,6 @@ font-style:normal*/
         }
 
 .content {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: scroll;
-    text-c
 }
 
 p {
