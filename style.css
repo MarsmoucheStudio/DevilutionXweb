@@ -9,7 +9,7 @@ font-style:normal*/
     overflow: hidden;
     font-family: Poppins;
     position: fixed;
-    top: 0; 
+    top: 0;
     width: 98%;
 }
 
@@ -41,10 +41,12 @@ font-style:normal*/
 p {
     color: white;
     font-family: Open Sans;
+    margin-left: 1%;
 }
 
 h2 {
     color: white;
+    margin-left: 0.5%;
 }
 
 body {
