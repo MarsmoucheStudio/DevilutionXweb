@@ -11,6 +11,13 @@
  </head>
 <body style="overflow: scroll">
 
+    <!-- List of active game -->
+    <div id="ActiveGame" class="AG" style="background-color: #121212; width: 15%; height: 65%; border-radius: 5px; float: left;">
+        <div class="AGhead">
+        <h2>Actives Games</h2>
+        </div>
+    </div>
+
     <!-- The sidebar -->
     <center>
         <div class="topnav" style="margin-top: 1%; margin-left: 0.5%; margin-right: 0.5%; border-radius: 10px;">
@@ -25,13 +32,13 @@
             <a href="#8" style="opacity: 100;">Legal</a>
             <a href="#9" style="opacity: 100;">Download</a>
         </div>
-        </center>
-
+    </center>
 
     <!-- Page content -->
     <br />
     <br />
     <br />
+
     <div class="content" style="margin-top: 5%; background-color: #121212; width: 60%; height: 89%; border-radius: 5px; margin: auto;">
 
         <!--DevilutionX -->
@@ -88,27 +95,27 @@
                 <p>If you want to help test the latest development stage of the next version (make sure to backup your files as these may contain bugs), you can fetch the test build artifact from one of the build server:</p>
                 <br />
 
-            <div style="margin-left: 1%;">
-                <div class="dropdown">
-                    <button class="dropbtn">Test Builds</button>
-                    <div class="dropdown-content">
-                        <a href="https://github.com/diasurgical/devilutionX/actions/workflows/Linux_x86_64.yml?query=branch%3Amaster">Linux x86 64</a>
-                        <a href="https://github.com/diasurgical/devilutionX/actions/workflows/Linux_aarch64.yml?query=branch%3Amaster">Linux aarch64</a>
-                        <a href="https://github.com/diasurgical/devilutionX/actions/workflows/Linux_x86.yml?query=branch%3Amaster">Linux x86</a>
-                        <a href="https://github.com/diasurgical/devilutionX/actions/workflows/Linux_x86_64_SDL1.yml?query=branch%3Amaster">Linux_x86_64_SDL1</a>
-                        <a href="https://github.com/diasurgical/devilutionX/actions/workflows/macOS_x86_64.yml?query=branch%3Amaster">macOS_x86_64</a>
-                        <a href="https://github.com/diasurgical/devilutionX/actions/workflows/Windows_MSVC_x64.yml?query=branch%3Amaster">Windows_MSVC_x64</a>
-                        <a href="https://github.com/diasurgical/devilutionX/actions/workflows/Windows_MinGW_x86.yml?query=branch%3Amaster">Windows_MinGW_x86</a>
-                        <a href="https://github.com/diasurgical/devilutionX/actions/workflows/Android.yml?query=branch%3Amaster">Android</a>
-                        <a href="https://github.com/diasurgical/devilutionX/actions/workflows/iOS.yml?query=branch%3Amaster">iOS</a>
-                        <a href="https://github.com/diasurgical/devilutionX/actions/workflows/PS4.yml?query=branch%3Amaster">PS4</a>
-                        <a href="https://github.com/diasurgical/devilutionX/actions/workflows/xbox_nxdk.yml?query=branch%3Amaster">xbox_nxdk</a>
-                        <a href="https://github.com/diasurgical/devilutionX/actions/workflows/xbox_one.yml?query=branch%3Amaster">xbox_one</a>
-                        <a href="https://app.circleci.com/pipelines/github/diasurgical/devilutionX?branch=master">devilutionX</a>
+                <div style="margin-left: 1%;">
+                    <div class="dropdown">
+                        <button class="dropbtn">Test Builds</button>
+                        <div class="dropdown-content">
+                            <a href="https://github.com/diasurgical/devilutionX/actions/workflows/Linux_x86_64.yml?query=branch%3Amaster">Linux x86 64</a>
+                            <a href="https://github.com/diasurgical/devilutionX/actions/workflows/Linux_aarch64.yml?query=branch%3Amaster">Linux aarch64</a>
+                            <a href="https://github.com/diasurgical/devilutionX/actions/workflows/Linux_x86.yml?query=branch%3Amaster">Linux x86</a>
+                            <a href="https://github.com/diasurgical/devilutionX/actions/workflows/Linux_x86_64_SDL1.yml?query=branch%3Amaster">Linux_x86_64_SDL1</a>
+                            <a href="https://github.com/diasurgical/devilutionX/actions/workflows/macOS_x86_64.yml?query=branch%3Amaster">macOS_x86_64</a>
+                            <a href="https://github.com/diasurgical/devilutionX/actions/workflows/Windows_MSVC_x64.yml?query=branch%3Amaster">Windows_MSVC_x64</a>
+                            <a href="https://github.com/diasurgical/devilutionX/actions/workflows/Windows_MinGW_x86.yml?query=branch%3Amaster">Windows_MinGW_x86</a>
+                            <a href="https://github.com/diasurgical/devilutionX/actions/workflows/Android.yml?query=branch%3Amaster">Android</a>
+                            <a href="https://github.com/diasurgical/devilutionX/actions/workflows/iOS.yml?query=branch%3Amaster">iOS</a>
+                            <a href="https://github.com/diasurgical/devilutionX/actions/workflows/PS4.yml?query=branch%3Amaster">PS4</a>
+                            <a href="https://github.com/diasurgical/devilutionX/actions/workflows/xbox_nxdk.yml?query=branch%3Amaster">xbox_nxdk</a>
+                            <a href="https://github.com/diasurgical/devilutionX/actions/workflows/xbox_one.yml?query=branch%3Amaster">xbox_one</a>
+                            <a href="https://app.circleci.com/pipelines/github/diasurgical/devilutionX?branch=master">devilutionX</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
             <!--Building from source -->
             <div>
@@ -140,58 +147,58 @@
                         </p>
 
 
-                            <!-- Download -->
-                            <h2 id="9">Download 1.5.1</h2>
+                        <!-- Download -->
+                        <h2 id="9">Download 1.5.1</h2>
 
-                            <div style="margin-left: 5%; margin-bottom: 60%">
-                                <div class="dropdown">
-                                    <button class="dropbtn">Download</button>
-                                    <div class="dropdown-content">
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-3ds.3dsx">DevilutionX 3DS.3dsx</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-3ds.cia">DevilutionX 3DS.cia</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-amiga-m68k.zip">DevilutionX amiga m68k.zip</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-android.apk">DevilutionX android.apk</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-iOS.ipa">DevilutionX IOS.ipa</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-lepus.opk">DevilutionX lepus.opk</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-linux-aarch64.tar.xz">DevilutionX linux aarch64.tar.xz</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-linux-i386.tar.xz">DevilutionX linux i386.tar.xz</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-linux-x86_64.appimage">DevilutionX linux x86 64.apimage</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-linux-x86_64.tar.xz">DevilutionX linux x86 64.tar.xz</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-macOS-x86_64.dmg">DevilutionX macOS x86 64.dmg</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-miyoo-mini-miniui.zip">DevilutionX miyoo miniui.zip</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-miyoo-mini-onion-os.zip">DevilutionX miyoo mini onion os.zip</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-ps4.pkg">DevilutionX PS4.pkg</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-retrofw.opk">DevilutionX retrofw.opk</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-rg350.opk">DevilutionX rg350.opk</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-src-fully-vendored.tar.xz">DevilutionX src fully vendored.tar.xz</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-src.tar.xz">DevilutionX src.tar.xz</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-switch.zip">DevilutionX switch.zip</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-vita.vpk">DevilutionX vita.vpk</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-windows-i386.zip">DevilutionX windows i386.zip</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-windows-x86_64.zip">DevilutionX windows x86 64.zip</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-xbox-one-series.zip">DevilutionX Xbox one series.zip</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-xbox.zip">DevilutionX Xbox.zip</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/archive/refs/tags/1.5.1.zip">DevilutionX Source code.zip</a>
-                                        <a href="https://github.com/diasurgical/devilutionX/archive/refs/tags/1.5.1.tar.gz">DevilutionX Source code.tar.gz</a>
-                                    </div>
+                        <div style="margin-left: 5%; margin-bottom: 60%">
+                            <div class="dropdown">
+                                <button class="dropbtn">Download</button>
+                                <div class="dropdown-content">
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-3ds.3dsx">DevilutionX 3DS.3dsx</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-3ds.cia">DevilutionX 3DS.cia</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-amiga-m68k.zip">DevilutionX amiga m68k.zip</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-android.apk">DevilutionX android.apk</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-iOS.ipa">DevilutionX IOS.ipa</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-lepus.opk">DevilutionX lepus.opk</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-linux-aarch64.tar.xz">DevilutionX linux aarch64.tar.xz</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-linux-i386.tar.xz">DevilutionX linux i386.tar.xz</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-linux-x86_64.appimage">DevilutionX linux x86 64.apimage</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-linux-x86_64.tar.xz">DevilutionX linux x86 64.tar.xz</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-macOS-x86_64.dmg">DevilutionX macOS x86 64.dmg</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-miyoo-mini-miniui.zip">DevilutionX miyoo miniui.zip</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-miyoo-mini-onion-os.zip">DevilutionX miyoo mini onion os.zip</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-ps4.pkg">DevilutionX PS4.pkg</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-retrofw.opk">DevilutionX retrofw.opk</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-rg350.opk">DevilutionX rg350.opk</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-src-fully-vendored.tar.xz">DevilutionX src fully vendored.tar.xz</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-src.tar.xz">DevilutionX src.tar.xz</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-switch.zip">DevilutionX switch.zip</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-vita.vpk">DevilutionX vita.vpk</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-windows-i386.zip">DevilutionX windows i386.zip</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-windows-x86_64.zip">DevilutionX windows x86 64.zip</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-xbox-one-series.zip">DevilutionX Xbox one series.zip</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/releases/download/1.5.1/devilutionx-xbox.zip">DevilutionX Xbox.zip</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/archive/refs/tags/1.5.1.zip">DevilutionX Source code.zip</a>
+                                    <a href="https://github.com/diasurgical/devilutionX/archive/refs/tags/1.5.1.tar.gz">DevilutionX Source code.tar.gz</a>
                                 </div>
                             </div>
+                        </div>
 
-</div>
-
-
-                <!-- <iframe src="main.html" width="60%" height="90%" style="border: 0px solid rgb(83, 72, 10); border-radius: 5px;"> </iframe> -->
+                    </div>
 
 
-            </div>
-
-            <style>
-
-                body {
-                    background-image: url('img/tile-background.png');
-                    background-repeat: repeat;
-                }
-            </style>
+                    <!-- <iframe src="main.html" width="60%" height="90%" style="border: 0px solid rgb(83, 72, 10); border-radius: 5px;"> </iframe> -->
 
 
-            <!--<img src="img/skull.png" alt="DevilutionX logo" style="width:2%;height:2%;" class="logosmall">-->
+                </div>
+
+                <style>
+
+                    body {
+                        background-image: url('img/tile-background.png');
+                        background-repeat: repeat;
+                    }
+                </style>
+
+
+                <!--<img src="img/skull.png" alt="DevilutionX logo" style="width:2%;height:2%;" class="logosmall">-->
