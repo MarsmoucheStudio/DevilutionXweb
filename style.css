@@ -5,7 +5,8 @@ font-style:normal*/
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #121212;
+    background-color: #212020;
+    background: rgba(31, 31, 31, 0.899);
     overflow: hidden;
     font-family: Poppins;
     position: fixed;
