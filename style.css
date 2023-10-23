@@ -98,12 +98,12 @@ logosmall {
 
 
 .dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+    background-color: darkred;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
 .dropdown {
@@ -134,7 +134,7 @@ logosmall {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: red;
 }
 
 .hide {
